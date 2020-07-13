@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "CommonJS",
+    "target": "ES2017",
+    "sourceMap": true,
+//    "strict": true,
+    "types": ["node","@types/jest"],
+    "emitDecoratorMetadata": true
+  },
+
+  "exclude": [
+    "node_modules"
+  ]
+}

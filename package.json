@@ -1,0 +1,35 @@
+{
+  "name": "api-agenda",
+  "version": "1.0.0",
+  "description": "api de agenda",
+  "repository": "blah",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/ts-node src/index.ts",
+    "test": "jest --forceExit "
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "25.1.2",
+    "babel-cli": "^7.0.0-0",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^26.1.0",
+    "babel-polyfill": "^7.0.0-0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^7.0.0-0",
+    "express": "^4.17.1",
+    "jest": "^26.1.0",
+    "mysql": "^2.18.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "25.2.0",
+    "typeorm": "^0.2.25",
+    "typescript": "^3.9.6",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
